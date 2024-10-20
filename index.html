@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futbol per tothom.</title>
+    <!-- Vincular CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Futbol per tothom.</h1>
+    </header>
+    <section class="intro">
+        <p class="intro-text">El futbol és un esport que requereix moltes habilitats físiques i tècniques. És essencial entrenar diferents àrees per millorar el rendiment i gaudir més del joc. Aquí es mostren diferents exercicis per millorar en diferents aspectes futbolístics.</p>
+    </section>
+    <section class="buttons-section">
+        <div class="button-container">
+            <a href="fisico.html">
+                <button>
+                    <img src="images/fisico.jpg" alt="Ejercicios Físico">
+                    <p>Físic</p>
+                </button>
+            </a>
+        </div>
+        <div class="button-container">
+            <a href="tecnica.html">
+                <button>
+                    <img src="images/tecnica.jpg" alt="Ejercicios Técnica">
+                    <p>Tècnica</p>
+                </button>
+            </a>
+        </div>
+        <div class="button-container">
+            <a href="definicion.html">
+                <button>
+                    <img src="images/definicion.jpg" alt="Ejercicios Definición">
+                    <p>Definició</p>
+                </button>
+            </a>
+        </div>
+        <div class="button-container">
+            <a href="resistencia.html">
+                <button>
+                    <img src="images/resistencia.jpg" alt="Ejercicios Resistencia">
+                    <p>Resistència</p>
+                </button>
+            </a>
+        </div>
+    </section>
+    
+    <section class="important-aspects">
+    <h2 class="section-title">Altres aspectes importants del futbol</h2>
+
+    <div class="aspect aspect-blue">
+        <div class="aspect-text">
+            <h3>Xut</h3>
+            <p>El xut és un dels aspectes més importants al futbol. La capacitat d'un jugador per disparar amb precisió i potència pot marcar la diferència entre guanyar o perdre un partit. A més, el xut és l'eina principal que un jugador utilitza per marcar gols, i dominar aquesta tècnica requereix pràctica constant. Els jugadors han d'aprendre a controlar la força i la direcció de la pilota perquè el xut sigui efectiu en qualsevol situació del joc.</p>
+        </div>
+        <div class="aspect-image">
+            <img src="images/chutando.gif" alt="Jugador chutando" class="aspect-img" onclick="playAudio('audios/chute.mp3')">
+        </div>
+    </div>
+
+    <div class="aspect aspect-green">
+        <div class="aspect-text">
+            <h3>Driblatge</h3>
+            <p>El driblatge és crucial per a l'avanç de la pilota pel camp. Permet als jugadors superar els seus oponents i crear oportunitats de gol. Un bon regatejador és capaç de canviar de direcció ràpidament, mantenir el control de la pilota i enganyar el rival. Aquesta habilitat és especialment important per als extrems i davanters, que necessiten trencar línies defensives per poder avançar cap a la porteria contrària i generar perill.</p>
+        </div>
+        <div class="aspect-image">
+            <img src="images/regateando.gif" alt="Jugador regateando" class="aspect-img" onclick="playAudio('audios/regate.mp3')">
+        </div>
+    </div>
+
+    <div class="aspect aspect-orange">
+        <div class="aspect-text">
+            <h3>Passada</h3>
+            <p>La passada és fonamental per mantenir la possessió de la pilota i construir jugades ofensives. Una bona passada requereix precisió i visió de joc, ja que el jugador ha d'anticipar els moviments dels seus companys i oponents. A més, la passada és essencial per trencar línies de pressió, distribuir la pilota pel camp i crear situacions de gol. Sense una bona passada, és difícil mantenir la fluïdesa i el ritme del partit.</p>
+        </div>
+        <div class="aspect-image">
+            <img src="images/pasando.gif" alt="Jugador pasando" class="aspect-img" onclick="playAudio('audios/pase.mp3')">
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</section>
+</head>
+<section class="nutrition-section">
+    <!-- Nuevo título de la sección -->
+    <h2 class="section-title">L'alimentació al futbol</h2>
+
+    <!-- Nueva sección de Alimentación -->
+    <section class="nutrition-section">
+        <div class="nutrition-content">
+            <!-- Foto a la izquierda -->
+            <div class="nutrition-image">
+                <img src="images/alimentacion.jpg" alt="Alimentación saludable">
+            </div>
+
+            <!-- Texto a la derecha -->
+            <div class="nutrition-text">
+                <p>
+                    Una bona alimentació és clau per al rendiment d'un futbolista. Els nutrients adequats no només milloren el rendiment físic, sinó que també acceleren la recuperació després dels partits i entrenaments. Les dietes equilibrades, riques en proteïnes, carbohidrats i greixos saludables, són essencials per mantenir l'energia i la resistència necessàries per jugar al màxim nivell. Els aliments rics en vitamines i minerals ajuden a enfortir el sistema immunològic, reduir la fatiga i prevenir lesions. Mantenir una hidratació correcta també és fonamental per evitar problemes musculars i optimitzar el rendiment cardiovascular. Una nutrició adequada, adaptada a les necessitats del futbolista, és un dels pilars bàsics per assolir un rendiment òptim a cada partit.
+                </p>
+            </div>
+        </div>
+
+        <!-- Platos recomendados -->
+        <div class="meal-grid">
+            <div class="meal-item">
+                <img src="images/pasta.jpg" alt="Plato de Pasta">
+                <h3>Pasta integral</h3>
+                <p>Rica en carbohidrats complexos, proporciona energia sostinguda per a entrenaments i partits llargs.</p>
+            </div>
+            <div class="meal-item">
+                <img src="images/pollo.jpg" alt="Plato de Pollo">
+                <h3>Pollastre a la planxa</h3>
+                <p>Font de proteïnes, ideal per a la recuperació muscular.</p>
+            </div>
+            <div class="meal-item">
+                <img src="images/aguacate.jpg" alt="Plato con Aguacate">
+                <h3>Alvocat</h3>
+                <p>Ric en greixos saludables, ajuda a mantenir l'energia durant tot el dia.</p>
+            </div>
+            <div class="meal-item">
+                <img src="images/ensalada.jpg" alt="Ensalada de verduras">
+                <h3>Ensalada de verdures</h3>
+                <p>Aporta vitamines i minerals que ajuden a enfortir el sistema immunitari.</p>
+            </div>
+            <div class="meal-item">
+                <img src="images/salmon.jpg" alt="Plato de Salmón">
+                <h3>Salmó</h3>
+                <p>Ric en Omega-3, millora la salut cardiovascular i la recuperació muscular.</p>
+            </div>
+            <div class="meal-item">
+                <img src="images/frutas.jpg" alt="Plato de Frutas">
+                <h3>Fruites fresques</h3>
+                <p>Aporten hidratació i antioxidants que ajuden a la recuperació i la prevenció de lesions.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+<section class="coach-section">
+    <h2 class="section-title">El rol dels entrenadors</h2>
+    <div class="coach-description">
+        <p>Els entrenadors tenen un paper fonamental en l'èxit d'un equip. No només són responsables del desenvolupament tècnic i tàctic dels jugadors, sinó que també influeixen en el seu estat mental i motivacional. Grans entrenadors han aconseguit marcar la diferència no només amb els seus coneixements, sinó també amb el lideratge i la capacitat per gestionar la pressió.</p>
+    </div>
+
+    <div class="coach-gallery">
+        <div class="coach">
+            <img src="images/guardiola.jpg" alt="Pep Guardiola" class="coach-image">
+            <div class="coach-info">
+                <h3>Pep Guardiola</h3>
+                <p><strong>Personalitat:</strong> Pep Guardiola és un perfeccionista i visionari al futbol. El seu enfocament al joc de possessió ha revolucionat l'estil de molts equips, maximitzant el talent individual dels seus jugadors i fomentant la cohesió del grup.</p>
+                <p><strong>Equips:</strong> FC Barcelona, Bayern Múnich, Manchester City.</p>
+                <p><strong>Títols:</strong> 32 títols, incloent-hi La Liga, Bundesliga, Premier League, Champions League.</p>
+            </div>
+        </div>
+        
+        <div class="coach">
+            <img src="images/alexferguson.jpg" alt="Sir Alex Ferguson" class="coach-image">
+            <div class="coach-info">
+                <h3>Sir Alex Ferguson</h3>
+                <p><strong>Personalitat:</strong>  Sir Alex Ferguson és un líder nat que ha deixat una empremta al futbol. La seva habilitat per motivar els seus jugadors i la seva visió tàctica li van permetre adaptar-se als canvis del joc al llarg dels anys, construint equips guanyadors com el Manchester United.</p>
+                <p><strong>Equips:</strong> Aberdeen, Manchester United.</p>
+                <p><strong>Títols:</strong> 49 títols, incloent-hi Premier League, FA Cup, Champions League.</p>
+            </div>
+        </div>
+        
+        <div class="coach">
+            <img src="images/mourinho.jpg" alt="José Mourinho" class="coach-image">
+            <div class="coach-info">
+                <h3>José Mourinho</h3>
+                <p><strong>Personalitat:</strong> José Mourinho és conegut pel seu carisma i el seu enfocament estratègic. La seva capacitat per motivar els seus jugadors en situacions de pressió, així com el seu estil defensiu, li han permès guanyar títols a diversos equips de diferents lligues.</p>
+                <p><strong>Equips:</strong> Porto, Chelsea, Inter de Milán, Real Madrid, Manchester United, Tottenham, Roma.</p>
+                <p><strong>Títols:</strong> 25 títols, incloent-hi Lliga Portuguesa, Premier League, La Liga, Serie A, Champions League.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="positions-section">
+    <h2 class="section-title">Les posicions al futbol</h2>
+    <p class="positions-description">
+        Les posicions al futbol són fonamentals per definir l'estratègia d'un equip. Cada jugador té un rol clau, que contribueix a mantenir l'equilibri tàctic i a potenciar el rendiment col·lectiu.
+    </p>
+
+    <div class="positions-grid">
+        <!-- Primera fila de posiciones -->
+        <div class="position-item">
+            <img src="images/portero.jpg" alt="Portero" class="position-img" onmouseover="showDescription('goalkeeper')" onmouseout="hideDescription('goalkeeper')">
+            <h3>Porter</h3>
+            <div id="goalkeeper" class="description-box">
+                <p>El porter és el guardià de la porteria. La seva tasca és evitar els gols i guiar la defensa des de darrere, utilitzant les mans i reflexos.</p>
+            </div>
+        </div>
+
+        <div class="position-item">
+            <img src="images/defensa.jpg" alt="Defensas" class="position-img" onclick="toggleDescription('defender')">
+            <h3>Defenses</h3>
+            <div id="defender" class="description-box">
+                <p>Els defenses protegeixen la seva àrea i intercepten atacs. La seva funció és bloquejar l'accés dels davanters rivals a l'àrea.</p>
+            </div>
+        </div>
+
+        <div class="position-item">
+            <img src="images/lateral.jpg" alt="Laterales" class="position-img" onclick="toggleDescription('fullback')">
+            <h3>Laterals</h3>
+            <div id="fullback" class="description-box">
+                <p>Els laterals tenen un rol mixt, defensant a la seva àrea i donant suport als atacs per les bandes, brindant amplitud i centres perillosos.</p>
+            </div>
+        </div>
+
+        <div class="position-item">
+            <img src="images/6.jpg" alt="Mediocentro Defensivo" class="position-img" onclick="toggleDescription('dm')">
+            <h3>Mig centre Defensiu (6)</h3>
+            <div id="dm" class="description-box">
+                <p>El migcampista defensiu és l'equilibri entre la defensa i l'atac, interceptant pilotes i distribuint joc des del centre del camp.</p>
+            </div>
+        </div>
+
+        <!-- Segunda fila de posiciones -->
+        <div class="position-item">
+            <img src="images/8.jpg" alt="Mediocentro" class="position-img" onclick="toggleDescription('cm')">
+            <h3>Mig centre (8)</h3>
+            <div id="cm" class="description-box">
+                <p>El migcampista és el motor de l'equip, organitzant el joc, distribuint passades i col·laborant tant en defensa com en atac.</p>
+            </div>
+        </div>
+
+        <div class="position-item">
+            <img src="images/10.jpg" alt="Mediocentro Ofensivo" class="position-img" onclick="toggleDescription('am')">
+            <h3>Mig centre Ofensiu (10)</h3>
+            <div id="am" class="description-box">
+                <p>El 10 és el creador de l'equip. La seva funció és assistir els davanters, generar jugades perilloses i sovint marcar gols.</p>
+            </div>
+        </div>
+
+        <div class="position-item">
+            <img src="images/extremo.jpg" alt="Extremos" class="position-img" onclick="toggleDescription('winger')">
+            <h3>Extrems</h3>
+            <div id="winger" class="description-box">
+                <p>Els extrems utilitzen la velocitat i habilitat per desbordar per les bandes, creant oportunitats de gol amb centres i xuts.</p>
+            </div>
+        </div>
+
+        <div class="position-item">
+            <img src="images/delantero.jpg" alt="Delantero" class="position-img" onclick="toggleDescription('striker')">
+            <h3>Davanter (9)</h3>
+            <div id="striker" class="description-box">
+                <p>El davanter és el principal golejador de l'equip. La seva funció és finalitzar les jugades i marcar gols per assegurar la victòria.</p>
+            </div>
+        </div>
+        <script src="script.js"></script>
+
